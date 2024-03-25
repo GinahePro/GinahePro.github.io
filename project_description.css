@@ -1,0 +1,42 @@
+.project_description{
+    flex: 1;
+    height: auto;
+    background-color: powderblue;
+    padding: 0.5em;
+}
+
+.project_description h1{
+
+}
+
+.project_description h2{
+
+}
+
+.project_description p{
+
+}
+
+.project_links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.project_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+
+.project_links img{
+    width: 75px;
+}
+
+.project_links a{
+    font-size: 0;
+}

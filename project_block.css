@@ -1,0 +1,12 @@
+.project_block{
+    margin: 0px;
+    display: flex
+}
+
+@media (max-width : 1100px){
+    .project_block{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

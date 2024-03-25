@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="project_description.css">
+    <link rel="stylesheet" href="project_preview.css">
+    <link rel="stylesheet" href="project_block.css">
+    <link rel="stylesheet" href="about_me.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>NICCOLI Samuel</title>
+  </head>
+  <Body>
+
+    <header>
+        <label>NICCOLI Samuel</label>
+
+        <div class="contact_links">
+          <a class= "contact_link" href="CV Niccoli Samuel.pdf" target="_blank">CV</a>
+          <a class= "contact_link"  href="mailto:niccoli.samuel@orange.fr" target="_blank">Mail</a>
+          <a class= "contact_link"  href="https://www.linkedin.com/in/samuel-niccoli-game-dev/" target="_blank">Linkedin</a>
+        </div>
+
+        <ul class="nav_links">
+          <li><a href="#presentation">Qui suis je</a></li>
+          <li><a href="#projects">Mes projets</a></li>
+        </ul>
+    </header>
+  <div class="separator" id="presentation"></div>
+  <div class="section" >
+    <div class="about_me" >
+      <img src="Image/Photo de profile.jpg">
+      <p>
+        Étudiant en L1 informatique au CNAM Enjmin je suis passionné de mathématiques , de physique , d'informatique et de jeux vidéo. Je suis à la recherche 
+        d'un poste d'apprenti programmeur. Ceci est mon portfolio, j'espère qu'il vous plaira.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="separator" id ="projects" ></div>
+  <div class="section" >
+
+      <div class = "project_block">
+
+          <div class="project_preview">
+            <div class="slider_content">
+              <div class="slide">
+                <video src= "Video/2v.mp4" controls preload="auto" poster="Image/1.jpg" muted  loop ></video>             
+              </div>
+              <div class="slide">
+                <img src="Image/1.jpg"/>
+              </div>
+              <div class="slide">
+                <img src="Image/1.jpg"/>
+              </div>
+            </div>
+            <div class="slider_nav">
+              <div class="slider_nav_button">
+                <input type="image" src="Image/1.jpg" onclick="goToSlide(0,1)" />
+              </div>
+              <div class="slider_nav_button">
+                <input type="image" src="Image/1.jpg" onclick="goToSlide(1,1)" />
+              </div>
+              <div class="slider_nav_button">
+                <input type="image" src="Image/1.jpg" onclick="goToSlide(2,1)" />
+              </div>
+            </div>
+          </div>
+
+          <div class = "project_description">
+            <h1>JabJob exercice</h1>
+            <h2> Technologie : Unity, C#, HLSL </h2>
+            <h3> 2024 - 1 semaines </h3>
+            <p>
+              Ce projet de cours nous imposait de réaliser un jeux a la première personne, non violent et avec pour méchanique principale le lancer d'objet. Il ma permis de mettre en 
+              pratique mes apprentissage sur la structure de code (state machine, interface) de m'entrainer au tooling et d'experimenter avec le sahder code.
+            </p>
+            <div class="project_links">
+              <div class = "project_link">
+                <a href=""><img src="Icon/itch-io.svg"/></a>
+              </div>
+              <div class = "project_link">
+                <a href=""><img src="Icon/github.svg"/></a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+ </div>
+ <div class="separator"></div>
+  <div class="section">
+    <div class = "project_block">
+
+      <div class="project_preview">
+        <div class="slider_content">
+          <div class="slide">
+            <video src= "Video/2v.mp4" controls preload="auto" poster="Image/Agit1.png"muted  loop ></video>     
+          </div>
+          <div class="slide">
+            <img src="Image/Agit2.png"/>
+          </div>
+          <div class="slide">
+            <img src="Image/Agit3.png"/>
+          </div>
+        </div>
+        <div class="slider_nav">
+          <div class="slider_nav_button">
+            <input type="image" src="Image/Agit1.png" onclick="goToSlide(0,2)" />
+          </div>
+          <div class="slider_nav_button">
+            <input type="image" src="Image/Agit2.png" onclick="goToSlide(1,2)" />
+          </div>
+          <div class="slider_nav_button">
+            <input type="image" src="Image/Agit3.png" onclick="goToSlide(2,2)" />
+          </div>
+        </div>
+      </div>
+
+      <div class = "project_description">
+        <h1>A ghost in town</h1>
+        <h2>Technologie : Godot, GDScript</h2>
+        <h3> 2022 - environs 1 ans </h3>
+        <p>
+          A Ghost in Town est un visual novel inspirée de phoenix wright réalisé pour le projet de fin d'étude de 
+          <a href="https://catstyle.carrd.co/" target="_blank"> Marin Duret</a> . Cela m'a permis d'apprendre à travailler pour quelqu'un
+          et à m'adapter au besoins de quelqu'un n'ayant aucune maitrise de la programmation. Comme par exemple lui fournir des outils pour travailler sans toucher au code 
+          ou avoir une structure robuste affin qu'elle ne puisse creer de bug.
+        </p>
+        <div class="project_links">
+          <div class = "project_link">
+            <a href=""><img src="Icon/link.svg"/></a>
+          </div>
+          <div class = "project_link">
+            <a href="https://www.instagram.com/p/CwivJw1Sgw6/" target="_blank"><img src="Icon/instagram.svg"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="separator"></div>
+  <div class="section">
+    <div class = "project_block">
+
+      <div class="project_preview">
+        <div class="slider_content">
+          <div class="slide">
+            <video src= "Video/2v.mp4" controls preload="auto" poster="Image/CodeFROG1.png"muted  loop ></video>             
+          </div>
+          <div class="slide">
+            <img src="Image/CodeFROG2.png"/>
+          </div>
+          <div class="slide">
+            <img src="Image/CodeFROG3.png"/>
+          </div>
+        </div>
+        <div class="slider_nav">
+          <div class="slider_nav_button">
+            <input type="image" src="Image/CodeFROG1.png" onclick="goToSlide(0,3)" />
+          </div>
+          <div class="slider_nav_button">
+            <input type="image" src="Image/CodeFROG2.png" onclick="goToSlide(1,3)" />
+          </div>
+          <div class="slider_nav_button">
+            <input type="image" src="Image/CodeFROG3.png" onclick="goToSlide(2,3)" />
+          </div>
+        </div>
+      </div>
+
+      <div class = "project_description">
+        <h1>Code F.R.O.G</h1>
+        <h2>Technologie : Godot, GDScript</h2>
+        <h3> 2022 Ludum dare 51 - 3 jours</h3>
+        <p>
+          Code F.R.O.G est un jeu réalisé lors d'une game jam en un weekend (la ludum dare 51) avec des amis. Il m'a permis de m'entrainer ​à travailler en équipe dans un délai 
+          pressant sur un thème imposé. C'est aussi mes premier pas avec Godot. J'ai réaliser toute l'intégration et la programmation du jeux étant le seul programmeur de l'équipe.
+        </p>
+        <div class="project_links">
+          <div class = "project_link">
+            <a href="https://ldjam.com/events/ludum-dare/51/code-f-r-0-g" target="_blank"><img src="Icon/link.svg"/></a>
+          </div>
+          <!--
+          <div class = "project_link">
+            <a href="https://aceykayn.itch.io/code-fr0g" target="_blank"><img src="Icon/itch-io.svg"/></a>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+
+  </footer>  
+  </Body>
+</html>

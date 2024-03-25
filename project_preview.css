@@ -1,0 +1,52 @@
+.project_preview{
+    flex: 1;
+    background-color: darksalmon;
+    height: auto;
+}
+
+.slider_content{
+   
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+}
+
+.slide{
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+
+.slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide video{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.slider_nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 1%;
+}
+
+.slider_nav_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    padding: 1% 1%;
+    
+}
+
+.slider_nav_button input{
+    width: 100%
+}
+
+
