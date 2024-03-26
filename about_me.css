@@ -1,13 +1,18 @@
 .home{
     display: flex;
-    height: 15em;
+    background-image: url(Image/fabric_1.webp);
+    justify-content: center;
+    vertical-align: center;
+    border-radius: 2em;
+    padding: 1em;
 }
 
 .home img{
-    flex :1;
+    height: 10em;
     object-fit: contain;
 }
 
 .home p{
-    flex :3;
+    padding-left: 1em;
+    font-size: 1.5em;
 }
