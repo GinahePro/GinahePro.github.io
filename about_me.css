@@ -1,13 +1,13 @@
-.about_me{
+.home{
     display: flex;
     height: 15em;
 }
 
-.about_me img{
+.home img{
     flex :1;
     object-fit: contain;
 }
 
-.about_me p{
+.home p{
     flex :3;
 }

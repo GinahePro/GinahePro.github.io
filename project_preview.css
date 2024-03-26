@@ -1,7 +1,10 @@
 .project_preview{
     flex: 1;
-    background-color: darksalmon;
+    background-image: url("Image/fabric_1.webp");
     height: auto;
+    padding: 1.5em;
+    border-radius: 2em;
+    margin: 1em;
 }
 
 .slider_content{
@@ -33,7 +36,7 @@
 .slider_nav{
     display: flex;
     flex-direction: row;
-    padding: 1% 1%;
+    padding-top: 1%;
 }
 
 .slider_nav_button{
@@ -41,9 +44,10 @@
     align-items: center;
     justify-content: center;
     flex:1;
-    padding: 1% 1%;
-    
+    padding-left: 0.5%;
+    padding-right: 0.5%;    
 }
+
 
 
 .slider_nav_button input{
