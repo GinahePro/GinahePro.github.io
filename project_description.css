@@ -5,7 +5,7 @@
     background-image: url("Image/fabric_1.webp");
     padding: 1em;
     border-radius: 2em;
-    margin: 1em;
+    margin: 2rem;
 }
 
 .project_description h1{
@@ -27,7 +27,9 @@
 }
 
 .project_description p{
-    font-size: 1.1em;
+    font-family: "Roboto Slab", serif;
+    font-weight: 350;
+    font-size: 0.95em;
 }
 
 

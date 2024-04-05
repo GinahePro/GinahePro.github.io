@@ -4,11 +4,13 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: grey;
     font-size: 3rem;
     height: 7rem;
     z-index: 1;
-    background-image: url("Image/prism.png");
+    background-color: #ffde59;
+    background-image: url("Image/PrismeWhite.png");
+    background-blend-mode: multiply;
+    border-bottom: black 0.1em solid;
 }
 
 header label{
@@ -17,7 +19,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -25,19 +27,22 @@ header label{
 .contact_links{
     flex:1;
     right: 0;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
 .contact_link{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75em;
     text-decoration: none;
-    color: black;
-    background-image: url("Image/fabric_1.webp");
+    color: #ffde59;
+    background-image: url("Image/prism.png");
     padding: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
     margin: 0.25em;
     border-radius: 1em;
 }
