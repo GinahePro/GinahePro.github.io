@@ -1,6 +1,6 @@
 .project_preview{
     flex: 1;
-    background-image: url("Image/fabric_1.webp");
+    background-image: url("Image/Texture/fabric.webp");
     height: auto;
     padding: 1.5em;
     border-radius: 2em;
@@ -44,12 +44,17 @@
     align-items: center;
     justify-content: center;
     flex:1;
-    padding-left: 0.5%;
-    padding-right: 0.5%;    
+    padding-right: 1%;    
 }
 
-
+#last.slider_nav_button {
+    padding-right: 0;
+}
 
 .slider_nav_button input{
     width: 100%
+}
+
+.slider_nav_button :hover{
+    opacity: 90%;
 }

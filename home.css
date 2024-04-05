@@ -11,7 +11,7 @@
     display: flex;
     width: 100%;
     height: min-content;
-    background-image: url(Image/fabric_1.webp);
+    background-image: url("Image/Texture/fabric.webp");
     align-items: center;
     border-radius: 2em;
     padding: 1em;

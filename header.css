@@ -8,7 +8,7 @@ header{
     height: 7rem;
     z-index: 1;
     background-color: #ffde59;
-    background-image: url("Image/PrismeWhite.png");
+    background-image: url("Image/Texture/prismeWhite.png");
     background-blend-mode: multiply;
     border-bottom: black 0.1em solid;
 }
@@ -39,7 +39,7 @@ header label{
     font-size: 0.75em;
     text-decoration: none;
     color: #ffde59;
-    background-image: url("Image/prism.png");
+    background-image: url("Image/Texture/prism.png");
     padding: 0.5em;
     padding-left: 0.75em;
     padding-right: 0.75em;
