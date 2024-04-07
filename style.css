@@ -24,7 +24,20 @@ html{
         --fs-header: 5vw;
         --header-height: 20vw;
     }
+    .home{
+        flex-direction: column;
+    }
 
+    .welcom_div{
+        margin-left: 0;
+        margin-top: 1em ;
+    }
+
+    .profil_picture img {
+        height: 16em;
+        object-fit: contain;
+        border-radius: 1em;
+    }
 }
 
 @media (orientation:landscape) {
@@ -96,6 +109,12 @@ html{
     }
 }
 
+@media (width < 58rem) {
+    :root{
+        --fs-home: 1rem;  
+    }
+}
+
 @media (width < 54rem) {
     :root{
         --fs-600:4.5rem;
@@ -104,6 +123,26 @@ html{
     }
 }
 
+@media (width < 43rem) {
+    :root{
+        --fs-home: 1.5rem;  
+    }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .welcom_div{
+        margin-left: 0;
+        margin-top: 1em ;
+    }
+
+    .profil_picture img {
+        height: 16em;
+        object-fit: contain;
+        border-radius: 1em;
+    }
+}
 
 body{
     background-image: url("Image/Texture/prism.png");

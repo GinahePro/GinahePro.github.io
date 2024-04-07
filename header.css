@@ -12,8 +12,8 @@ header{
     background-image: url("Image/Texture/prismeWhite.png");
     background-blend-mode: multiply;
     border-bottom: black 0.1em solid;
-    padding-left: var(--margin-side);
-    padding-right: var(--margin-side);
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 header label{
@@ -23,9 +23,8 @@ header label{
     align-items: center;
     justify-content: center;
     color: black;
-    padding-left: var(--margin-side);
-    padding-right:  var(--margin-side);
-    margin-right:  var(--margin-side);;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .contact_links{
