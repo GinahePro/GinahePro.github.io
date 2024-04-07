@@ -19,6 +19,22 @@ html{
     --font-family-title: Arial, Helvetica, sans-serif;
 }
 
+@media (orientation:portrait) {
+    :root{
+        --fs-header: 5vw;
+        --header-height: 20vw;
+    }
+
+}
+
+@media (orientation:landscape) {
+    :root{
+        --fs-header: 6vh;
+        --header-height: 14vh;
+    }
+
+}
+
 @media (width < 110rem) {
     :root{
         --fs-400: 1.50rem;  
