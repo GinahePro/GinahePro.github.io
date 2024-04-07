@@ -54,8 +54,17 @@ html{
     }
 }
 
+@media (width < 100rem) {
+    :root{
+        --fs-600: 3.5rem;
+        --fs-500: 2rem;
+        --fs-400: 1.25rem;
+    }
+}
+
+
 /* Breaking point where project block became vertical */
-@media (width < 100rem){
+@media (width < 90rem){
     :root{
         --fs-600: 7rem;
         --fs-500: 4rem;
