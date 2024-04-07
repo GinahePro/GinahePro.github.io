@@ -23,8 +23,9 @@ header label{
     align-items: center;
     justify-content: center;
     color: black;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: var(--margin-side);
+    padding-right:  var(--margin-side);
+    margin-right:  var(--margin-side);;
 }
 
 .contact_links{

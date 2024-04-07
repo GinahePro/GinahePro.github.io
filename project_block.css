@@ -1,29 +1,23 @@
 .project_block{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    aspect-ratio: 32/12;
+    
+
 }
 
 .project_block > div{
     flex: 1;
     background-image: url("Image/Texture/fabric.webp"); 
-    padding: 1.5em;
-    border-radius: 0.75em;
-    font-size: var(--fs-400);
-    height: min-content;
+    padding: 1rem;
+    border-radius: 0.5em;
+    font-size: var(--fs-400); 
     align-content: center;
 }
 
 .project_block .project_block_separator{
     all: revert;
     width: 2em;
-}
-
-@media (width < 1000px){
-    .project_block{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
 }

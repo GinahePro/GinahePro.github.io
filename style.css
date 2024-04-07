@@ -9,16 +9,85 @@ html{
 }
 
 :root{
-    --fs-header: 3rem;
-    --fs-home: 3rem;
+    --fs-header: 6vh;
+    --header-height: 14vh;
+    --fs-home: 2.5rem;
     --fs-600: 4rem;
     --fs-500: 2.5rem;
-    --fs-400: 2rem;
-    --header-height: 7rem;
+    --fs-400: 1.75rem;
     --margin-side : 4rem;
     --font-family-title: Arial, Helvetica, sans-serif;
-    --project-block-separator : 1em;
 }
+
+@media (width < 110rem) {
+    :root{
+        --fs-400: 1.50rem;  
+    }
+}
+
+/* Breaking point where project block became vertical */
+@media (width < 100rem){
+    :root{
+        --fs-600: 7rem;
+        --fs-500: 4rem;
+        --fs-400: 2.5rem;
+    }
+
+    .project_block{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: var(--margin-side);
+    }
+}
+
+
+
+@media (width < 94rem) {
+    :root{
+        --fs-home: 2rem;  
+    }
+}
+
+@media (width < 90rem) {
+    :root{
+        --fs-600: 6.5rem;
+        --fs-500: 3.5rem;
+        --fs-400: 2.5rem;
+    }
+}
+
+@media (width < 78rem) {
+    :root{
+        --fs-600:6rem;
+        --fs-500:3rem;
+        --fs-400: 2.5rem;
+        --fs-home: 1.75rem;  
+    }
+}
+
+@media (width < 69rem) {
+    :root{
+        --fs-home: 1.5rem;  
+    }
+}
+
+@media (width < 62rem) {
+    :root{
+        --fs-600:5rem;
+        --fs-500:2.5rem;
+        --fs-400: 2rem;  
+    }
+}
+
+@media (width < 54rem) {
+    :root{
+        --fs-600:4.5rem;
+        --fs-500:2rem;
+        --fs-400: 1.75rem;  
+    }
+}
+
 
 body{
     background-image: url("Image/Texture/prism.png");
@@ -26,16 +95,20 @@ body{
 
 .section{
     padding-top: 2em;
-    padding-left: var(--margin-side);
-    padding-right: var(--margin-side);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section > div {
+    width: 100rem;
+    margin: 0 var(--margin-side);
 }
 
 .separator{
     height: var(--header-height);
 }
 
-@media screen {
-    
-}
+
 
 

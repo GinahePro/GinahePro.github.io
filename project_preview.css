@@ -1,5 +1,8 @@
 .project_preview{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
 }
 
 .slider_content{
@@ -30,16 +33,13 @@
 .slider_nav{
     display: flex;
     flex-direction: row;
-    padding-top: 1%;
 }
 
 .slider_nav_button{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex:1;
-    padding-right: 1%;
-     
+    flex:1;     
 }
 
 #last.slider_nav_button {
