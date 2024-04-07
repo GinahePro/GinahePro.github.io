@@ -2,8 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:serif;
+}
 
+html{
+    font-family: "Roboto Slab", serif;
+}
+
+:root{
+    --fs-header: 3rem;
+    --fs-home: 3rem;
+    --fs-600: 4rem;
+    --fs-500: 2.5rem;
+    --fs-400: 2rem;
+    --header-height: 7rem;
+    --margin-side : 4rem;
+    --font-family-title: Arial, Helvetica, sans-serif;
+    --project-block-separator : 1em;
 }
 
 body{
@@ -11,13 +25,17 @@ body{
 }
 
 .section{
-    font-size: 2rem;
-    padding: 2rem;
-    font-size: 2em;
+    padding-top: 2em;
+    padding-left: var(--margin-side);
+    padding-right: var(--margin-side);
 }
 
 .separator{
-    height: 7rem;
+    height: var(--header-height);
+}
+
+@media screen {
+    
 }
 
 

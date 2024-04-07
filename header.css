@@ -1,20 +1,23 @@
 header{
     display: flex;
     position: sticky;
+    font-family: var(--font-family-title);
     top: 0;
     left: 0;
     width: 100%;
-    font-size: 3rem;
-    height: 7rem;
+    font-size: var(--fs-header);
+    height: var(--header-height);
     z-index: 1;
     background-color: #ffde59;
     background-image: url("Image/Texture/prismeWhite.png");
     background-blend-mode: multiply;
     border-bottom: black 0.1em solid;
+    padding-left: var(--margin-side);
+    padding-right: var(--margin-side);
 }
 
 header label{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -27,15 +30,12 @@ header label{
 .contact_links{
     flex:1;
     right: 0;
-    padding-left: 1.25em;
-    padding-right: 1.25em;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
 .contact_link{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75em;
     text-decoration: none;
     color: #ffde59;

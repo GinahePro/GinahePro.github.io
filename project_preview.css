@@ -1,14 +1,8 @@
 .project_preview{
-    flex: 1;
-    background-image: url("Image/Texture/fabric.webp");
-    height: auto;
-    padding: 1.5em;
-    border-radius: 2em;
-    margin: 1em;
+    
 }
 
 .slider_content{
-   
     display: flex;
     aspect-ratio: 16/9;
     overflow: hidden;
@@ -44,7 +38,8 @@
     align-items: center;
     justify-content: center;
     flex:1;
-    padding-right: 1%;    
+    padding-right: 1%;
+     
 }
 
 #last.slider_nav_button {
@@ -52,9 +47,11 @@
 }
 
 .slider_nav_button input{
+    border: 0.5em gray solid;   
     width: 100%
 }
 
 .slider_nav_button :hover{
-    opacity: 90%;
+    border-color: yellow;
+    opacity: 80%;
 }
